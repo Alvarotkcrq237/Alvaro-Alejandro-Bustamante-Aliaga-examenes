@@ -41,6 +41,8 @@ print("Lista actualizada con el bono familiar:", datos_trabajador)
 print("Tamaño de la lista:", len(datos_trabajador))
 
 if trabaja_actualmente:
-    print(f"El trabajador {nombre} {apellido} se encuentra trabajando actualmente en la compañía.")
+    print(f"El trabajador {nombre} {apellido} se "
+          f"encuentra trabajando actualmente en la compañía.")
 else:
-    print(f"El trabajador {nombre} {apellido} ya no se encuentra trabajando actualmente en la empresa.")
+    print(f"El trabajador {nombre} {apellido} ya no "
+          f"se encuentra trabajando actualmente en la empresa.")
